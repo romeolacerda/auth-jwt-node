@@ -32,7 +32,7 @@ export class SignUpController implements IController {
                 return {
                     statusCode: 400,
                     body: {
-                        error: "this eamil is already in use"
+                        error: "this email is already in use"
                     }
                 }
             }
